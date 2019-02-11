@@ -1,0 +1,26 @@
+.list-group-item{
+  color: #BCBCBC;
+  background-color: #242424;
+  font-family: 'Roboto', sans-serif;
+  padding:0.25rem 0.25rem;
+  text-align: center;
+  border: 1px transparent !important;
+}
+
+.mb-1{
+  padding: 0px 0px 0px 0px !important;
+}
+
+.col-md-4{
+  padding: 0px 3px 0px 3px !important;
+}
+.ForceResize{
+  padding: 10px 10px 10px 10px !important;
+
+}
+.card-body{
+ /*  height: 200px; */
+}
+.card{
+  /* height: 300px; */
+}
