@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/arrow_left.11911410.svg"
   },
   {
-    "revision": "b5a2e14beaf5a36b4f0d",
+    "revision": "82e1dbdb2660b7c2aacc",
     "url": "/DX06/static/css/main.f156d7dc.chunk.css"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/fa-regular-400.72f15fa7.woff"
   },
   {
-    "revision": "fcb220ee57704c9c80680153bada946c",
-    "url": "/DX06/static/media/fa-regular-400.fcb220ee.ttf"
-  },
-  {
     "revision": "80efa56be5eaebd06ea34f1adbad071c",
     "url": "/DX06/static/media/fa-regular-400.80efa56b.eot"
+  },
+  {
+    "revision": "fcb220ee57704c9c80680153bada946c",
+    "url": "/DX06/static/media/fa-regular-400.fcb220ee.ttf"
   },
   {
     "revision": "662c24d02ff1711bd01ec3868df8680b",
@@ -88,8 +88,8 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/fa-solid-900.c8ea4c79.svg"
   },
   {
-    "revision": "b5a2e14beaf5a36b4f0d",
-    "url": "/DX06/static/js/main.b5a2e14b.chunk.js"
+    "revision": "82e1dbdb2660b7c2aacc",
+    "url": "/DX06/static/js/main.82e1dbdb.chunk.js"
   },
   {
     "revision": "8ef6a08cdc1154920165680a4edde771",
@@ -104,12 +104,12 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/Roboto-Light.a990f611.eot"
   },
   {
-    "revision": "30799efa5bf74129468ad4e257551dc3",
-    "url": "/DX06/static/media/Roboto-Regular.30799efa.eot"
-  },
-  {
     "revision": "4d9f3f9e5195e7b074bb63ba4ce42208",
     "url": "/DX06/static/media/Roboto-Medium.4d9f3f9e.eot"
+  },
+  {
+    "revision": "30799efa5bf74129468ad4e257551dc3",
+    "url": "/DX06/static/media/Roboto-Regular.30799efa.eot"
   },
   {
     "revision": "ecdd509cadbf1ea78b8d2e31ec52328c",
@@ -164,19 +164,19 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
-    "revision": "df7b648ce5356ea1ebce435b3459fd60",
-    "url": "/DX06/static/media/Roboto-Regular.df7b648c.ttf"
-  },
-  {
     "revision": "894a2ede85a483bf9bedefd4db45cdb9",
     "url": "/DX06/static/media/Roboto-Medium.894a2ede.ttf"
+  },
+  {
+    "revision": "df7b648ce5356ea1ebce435b3459fd60",
+    "url": "/DX06/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
     "revision": "73c6396dba9ff0d7dd18",
     "url": "/DX06/static/css/2.a74d5414.chunk.css"
   },
   {
-    "revision": "9ace2ddd9735d88fd15d08ee1b6e793b",
+    "revision": "e3df0511b12f9e11fb4f834e57d3744f",
     "url": "/DX06/index.html"
   }
 ];
