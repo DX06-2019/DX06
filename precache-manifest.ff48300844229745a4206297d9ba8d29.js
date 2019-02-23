@@ -60,24 +60,24 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/fa-solid-900.9c73abbd.woff"
   },
   {
-    "revision": "3186ebd2918491445ea391a4f74e8dd7",
-    "url": "/DX06/static/media/fa-brands-400.3186ebd2.eot"
-  },
-  {
     "revision": "a995bae1d3cba3bdcf24071bf09b51c8",
     "url": "/DX06/static/media/fa-brands-400.a995bae1.ttf"
+  },
+  {
+    "revision": "3186ebd2918491445ea391a4f74e8dd7",
+    "url": "/DX06/static/media/fa-brands-400.3186ebd2.eot"
   },
   {
     "revision": "304f31f4585cf09768f9d4d69574d2d6",
     "url": "/DX06/static/media/fa-regular-400.304f31f4.svg"
   },
   {
-    "revision": "20c189aa192501e4ec907d5f84e8fbb1",
-    "url": "/DX06/static/media/fa-solid-900.20c189aa.ttf"
-  },
-  {
     "revision": "9a52a4e971938c52d6c541b9bf3dc2ec",
     "url": "/DX06/static/media/fa-solid-900.9a52a4e9.eot"
+  },
+  {
+    "revision": "20c189aa192501e4ec907d5f84e8fbb1",
+    "url": "/DX06/static/media/fa-solid-900.20c189aa.ttf"
   },
   {
     "revision": "e4fed0a589f7130c6ef834a029854646",
@@ -136,12 +136,12 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/Roboto-Bold.39b2c303.woff2"
   },
   {
-    "revision": "7500519de3d82e33d1587f8042e2afcb",
-    "url": "/DX06/static/media/Roboto-Thin.7500519d.woff"
-  },
-  {
     "revision": "3b813c2ae0d04909a33a18d792912ee7",
     "url": "/DX06/static/media/Roboto-Light.3b813c2a.woff"
+  },
+  {
+    "revision": "7500519de3d82e33d1587f8042e2afcb",
+    "url": "/DX06/static/media/Roboto-Thin.7500519d.woff"
   },
   {
     "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
@@ -164,12 +164,12 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
-    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
-    "url": "/DX06/static/media/Roboto-Bold.e31fcf18.ttf"
-  },
-  {
     "revision": "46e48ce0628835f68a7369d0254e4283",
     "url": "/DX06/static/media/Roboto-Light.46e48ce0.ttf"
+  },
+  {
+    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
+    "url": "/DX06/static/media/Roboto-Bold.e31fcf18.ttf"
   },
   {
     "revision": "73c6396dba9ff0d7dd18",
