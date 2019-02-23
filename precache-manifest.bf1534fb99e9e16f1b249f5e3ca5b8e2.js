@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/arrow_left.11911410.svg"
   },
   {
-    "revision": "9ab8733119e7f3163673",
+    "revision": "52832ced648b2adab19d",
     "url": "/DX06/static/css/main.f156d7dc.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/DX06/static/js/runtime~main.2173d5a5.js"
   },
   {
-    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
-    "url": "/DX06/static/media/Roboto-Bold.e31fcf18.ttf"
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/DX06/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
     "revision": "73c6396dba9ff0d7dd18",
@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/fa-regular-400.304f31f4.svg"
   },
   {
-    "revision": "9a52a4e971938c52d6c541b9bf3dc2ec",
-    "url": "/DX06/static/media/fa-solid-900.9a52a4e9.eot"
-  },
-  {
     "revision": "20c189aa192501e4ec907d5f84e8fbb1",
     "url": "/DX06/static/media/fa-solid-900.20c189aa.ttf"
+  },
+  {
+    "revision": "9a52a4e971938c52d6c541b9bf3dc2ec",
+    "url": "/DX06/static/media/fa-solid-900.9a52a4e9.eot"
   },
   {
     "revision": "e4fed0a589f7130c6ef834a029854646",
@@ -88,8 +88,8 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/fa-solid-900.c8ea4c79.svg"
   },
   {
-    "revision": "9ab8733119e7f3163673",
-    "url": "/DX06/static/js/main.9ab87331.chunk.js"
+    "revision": "52832ced648b2adab19d",
+    "url": "/DX06/static/js/main.52832ced.chunk.js"
   },
   {
     "revision": "8ef6a08cdc1154920165680a4edde771",
@@ -160,23 +160,23 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/Roboto-Thin.94998475.ttf"
   },
   {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/DX06/static/media/Roboto-Medium.894a2ede.ttf"
+    "revision": "df7b648ce5356ea1ebce435b3459fd60",
+    "url": "/DX06/static/media/Roboto-Regular.df7b648c.ttf"
+  },
+  {
+    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
+    "url": "/DX06/static/media/Roboto-Bold.e31fcf18.ttf"
   },
   {
     "revision": "46e48ce0628835f68a7369d0254e4283",
     "url": "/DX06/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
-    "revision": "df7b648ce5356ea1ebce435b3459fd60",
-    "url": "/DX06/static/media/Roboto-Regular.df7b648c.ttf"
-  },
-  {
     "revision": "73c6396dba9ff0d7dd18",
     "url": "/DX06/static/css/2.a74d5414.chunk.css"
   },
   {
-    "revision": "c3507b217840f35828f584f45a6f9db4",
+    "revision": "e0b99da85c87625584b9f8a0fedeb55b",
     "url": "/DX06/index.html"
   }
 ];
