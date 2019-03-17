@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/arrow_right.8ef6a08c.svg"
   },
   {
-    "revision": "0ab3766a6e1dc642d8ba",
+    "revision": "b010bbdac7407f02fbcb",
     "url": "/DX06/static/css/main.1ed5171b.chunk.css"
   },
   {
@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/fa-solid-900.9c73abbd.woff"
   },
   {
-    "revision": "a995bae1d3cba3bdcf24071bf09b51c8",
-    "url": "/DX06/static/media/fa-brands-400.a995bae1.ttf"
-  },
-  {
     "revision": "3186ebd2918491445ea391a4f74e8dd7",
     "url": "/DX06/static/media/fa-brands-400.3186ebd2.eot"
+  },
+  {
+    "revision": "a995bae1d3cba3bdcf24071bf09b51c8",
+    "url": "/DX06/static/media/fa-brands-400.a995bae1.ttf"
   },
   {
     "revision": "304f31f4585cf09768f9d4d69574d2d6",
@@ -88,8 +88,8 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/arrow_left.11911410.svg"
   },
   {
-    "revision": "0ab3766a6e1dc642d8ba",
-    "url": "/DX06/static/js/main.c4b2b67c.chunk.js"
+    "revision": "b010bbdac7407f02fbcb",
+    "url": "/DX06/static/js/main.f101a0b5.chunk.js"
   },
   {
     "revision": "dfe56a876d0282555d1e2458e278060f",
@@ -120,12 +120,12 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/Roboto-Light.69f8a061.woff2"
   },
   {
-    "revision": "574fd0b50367f886d359e8264938fc37",
-    "url": "/DX06/static/media/Roboto-Medium.574fd0b5.woff2"
-  },
-  {
     "revision": "2751ee43015f9884c3642f103b7f70c9",
     "url": "/DX06/static/media/Roboto-Regular.2751ee43.woff2"
+  },
+  {
+    "revision": "574fd0b50367f886d359e8264938fc37",
+    "url": "/DX06/static/media/Roboto-Medium.574fd0b5.woff2"
   },
   {
     "revision": "39b2c3031be6b4ea96e2e3e95d307814",
@@ -140,12 +140,12 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/Roboto-Light.3b813c2a.woff"
   },
   {
-    "revision": "fc78759e93a6cac50458610e3d9d63a0",
-    "url": "/DX06/static/media/Roboto-Medium.fc78759e.woff"
-  },
-  {
     "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
     "url": "/DX06/static/media/Roboto-Regular.ba3dcd89.woff"
+  },
+  {
+    "revision": "fc78759e93a6cac50458610e3d9d63a0",
+    "url": "/DX06/static/media/Roboto-Medium.fc78759e.woff"
   },
   {
     "revision": "dc81817def276b4f21395f7ea5e88dcd",
@@ -172,7 +172,7 @@ self.__precacheManifest = [
     "url": "/DX06/static/css/2.ecd7b9b1.chunk.css"
   },
   {
-    "revision": "77c1330d60f450f628a966f2b6c8f1d3",
+    "revision": "5d0ab2abf305a32987d2214d4eccdd9b",
     "url": "/DX06/index.html"
   }
 ];
