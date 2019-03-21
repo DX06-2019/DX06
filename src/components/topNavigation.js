@@ -1,24 +1,32 @@
-import React, { Component } from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon } from 'mdbreact';
+import React, { Component, Fragment } from 'react';
+import Burger  from '../assets/burger';
 
 var divStyle = {
     color: '#BCBCBC',
     background: '#060606',
     textAlign: 'center',
-
+    fontSize: 17,
     fontStyle: 'normal',
     fontWeight: 300,
     lineHeight: 'normal',
   };
 
+  var burgerStyle = {
+    color: 'white',
+    float:'left',
+    cursor: 'pointer'
+}
+
 class TopNavigation extends Component {
     state = {
-        collapse: false
+        collapse: false,
+        someText: 'sometextisthis'
     }
 
-    onClick = () => {
+/*     onClick = () => {
+        console.log("JARRO");
         this.setState({
-            collapse: !this.state.collapse,
+            someText: "JARRO",
         });
     }
 
@@ -26,14 +34,25 @@ class TopNavigation extends Component {
         this.setState({
             dropdownOpen: !this.state.dropdownOpen
         });
-    }
+    } */
 
     
     render() {
-        return (            
-            <div style={divStyle}>
-                <span>Dashboard</span>
-            </div>
+        return (
+            <Fragment>
+                <div onClick={()=>{this.props.sideOpen(true)} } style={{
+                          zIndex: 9,
+                          position: 'absolute',
+                          top:-3.15,
+                          cursor: 'pointer',
+                          color:'white'
+                        }}>
+                            <Burger></Burger>
+                        </div>
+                <div style={divStyle}>
+                    <span>Dashboard</span>
+                </div>
+            </Fragment>
         );
 
         // return (            

@@ -5,22 +5,22 @@ import ListBox from "./../../custom/ListBox";
 
 import "./CustomAddedCss.css"
 
-var divStyle1 = {
-  paddingTop: 0,
-  paddingBottom: 0,
-  paddingLeft: 3,
-  paddingRight: 3,
-  lineHeight: 1.65,
-  marginTop: 2,
-};
+  var divStyle1 = {
+    paddingTop: 0,
+    paddingBottom: 0,
+    paddingLeft: 3,
+    paddingRight: 3,
+    marginTop: 2,
+    lineHeight: 2.1,
+  };
 
 var divStyle2 = {
   paddingTop: 0,
   paddingBottom: 0,
   paddingLeft: 3,
   paddingRight: 3,
-  lineHeight: 2.35,
   marginTop: 2,
+  lineHeight: 2.1,
 };
 
 var divStyle3 = {
@@ -28,7 +28,7 @@ var divStyle3 = {
   paddingBottom: 0,
   paddingLeft: 3,
   paddingRight: 3,
-  lineHeight: 2.35,
+  lineHeight: 2.1,
 };
 
 var divStyle4 = {
@@ -45,7 +45,7 @@ const AdminCardSection2 = () => {
               <div className="col-sm-6" style={divStyle1}>
               <ListBox>
                 <div><span>Total Predicted Usages for Today:</span></div>
-                <div>
+                <div >
                   <span>On-Peak: </span>
                   <span><FirebaseSingleValue field="predictedOnPeak"></FirebaseSingleValue></span>
                   <span> kWh</span></div>
@@ -53,11 +53,11 @@ const AdminCardSection2 = () => {
                   <span>Mid-Peak: </span>
                   <span><FirebaseSingleValue field="predictedMidPeak"></FirebaseSingleValue></span>
                   <span> kWh</span></div>
-                <div>
+                {/* <div>
                   <span>Off-Peak: </span>
                   <span><FirebaseSingleValue field="predictedOffPeak"></FirebaseSingleValue></span>
                   <span> kWh</span>
-                </div>
+                </div> */}
                 {/* <FirebaseSingleValue collection="realtime_data" doc="singleValues" field="powerByGrid"></FirebaseSingleValue> */}
               </ListBox>
               </div>

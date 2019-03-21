@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import Routes from '../src/components/Routes';
 import TopNavigation from './components/topNavigation';
-import SideNavigation from './components/sideNavigation';
-import Footer from './components/Footer';
 import './index.css';
-import FirebaseSingleValue from './components/custom/FirebaseSingleValue'
+import FirebaseSingleValue from './components/custom/FirebaseSingleValue';
 import firebase from 'firebase';
+import Sidebar from "react-sidebar";
+// import sidebarcontent from './sidebar'
+
 var divStyleMain = {
-  background: "#141414",
+  justifyContent: 'center',  
+  maxWidth: 800,
+  maxHeight: 480,
+  margin: '0 auto',
 }
 
 var divStyle = {
@@ -17,6 +21,11 @@ var divStyle = {
   paddingRight: 10,
   marginLeft: 5,
   marginRight: 5,
+}
+
+var sidebarStyle = {
+  background: '#0F0F0F', 
+  zIndex: 10
 }
 
 const config = {
@@ -34,15 +43,40 @@ firebase.initializeApp(config);
 // db.collection("realtime_dssata").doc("predictVsdssActual").delete();
 
 class App extends Component {
-  
+  constructor(props) {
+    super(props);
+    this.state = {
+      sidebarOpen: false
+    };
+    this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
+  }
+
+  onSetSidebarOpen(open) {
+    this.setState({ sidebarOpen: open });
+  }
+
   render() {
     return (
         <div className="flexible-content" style={divStyleMain}>
-          <TopNavigation />
-          {/* <SideNavigation /> */}
-          <main id="content" style={divStyle}/* className="p-3" */>
-            <Routes />
+          <TopNavigation sideOpen={this.onSetSidebarOpen} />
+          <main id="content" style={divStyle}>
+          <Routes />
           </main>
+          <Sidebar
+            sidebar={
+              <div className="btn-group">
+                <ul className='sidebar-ul'>
+                  <li className='sidebar-li'><div><a href='/dashboard'>Dashboard</a></div></li>
+                  <li className='sidebar-li'><div><a href='/usage'>Usage and Savings</a></div></li>
+                  <li className='sidebar-li'><div><a href='/utility'>Utility Rates</a></div></li>
+                  <li className='sidebar-li'><div><a href='/about'>About</a></div></li>
+                </ul>
+              </div>
+              }
+            open={this.state.sidebarOpen}
+            onSetOpen={this.onSetSidebarOpen}
+            styles={{ sidebar: sidebarStyle }}>
+          </Sidebar>
         </div>
     );
   }

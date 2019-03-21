@@ -1,22 +1,27 @@
 {
-  "homepage": "https://dx06-2019.github.io/DX06",
+  "homepage": "https://dx06-2019.github.io/",
   "name": "mdb-react-admin-template",
   "version": "1.0.0",
-  "description": "MDB - React Admin Dashboard Free",
-  "author": "MDBootstrap <support@mdbootstrap.com>",
+  "description": "DX06",
+  "author": "DX06",
   "license": "MIT",
   "dependencies": {
     "firebase": "^5.8.2",
     "git": "^0.1.5",
     "google-map-react": "^1.0.6",
     "mdbreact": "^4.9.0",
+    "plotly.js": "^1.45.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-plotly.js": "^2.2.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.3"
+    "react-scripts": "^2.1.8",
+    "react-sidebar": "^3.0.2"
   },
   "scripts": {
-    "deploy": "yarn build && gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -29,6 +34,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@expo/vector-icons": "^9.0.0",
     "gh-pages": "^2.0.1",
     "terser": "^3.14.1"
   }

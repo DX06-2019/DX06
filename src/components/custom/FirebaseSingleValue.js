@@ -9,7 +9,7 @@ class FirebaseSingleValue extends Component {
             collection: this.props.collection || "realtime_data",
             doc: this.props.doc || "singleValues",
             field: this.props.field || "batteryPercent",
-            ["DATA"]: "loading..."
+            ["DATA"]: "..."
          }
     }
 
@@ -32,14 +32,6 @@ class FirebaseSingleValue extends Component {
                     ["DATA"]: change.doc.data()[this.state.field]
                 });
             });
-            
-            
-            
-            //console.log(changes.get(this.state.field));
-            
-            // this.setState({
-            //     ["DATA"]: document.data()[this.state.field]
-            // });
         });
     }
 

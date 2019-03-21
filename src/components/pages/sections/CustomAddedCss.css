@@ -2,7 +2,7 @@
   color: #BCBCBC;
   background-color: #242424;
   font-family: 'Roboto', sans-serif;
-  padding:0.25rem 0.25rem;
+  padding:0.24rem 0.24rem;
   text-align: center;
   border: 1px transparent !important;
 }
@@ -14,13 +14,13 @@
 .col-md-4{
   padding: 0px 3px 0px 3px !important;
 }
-.ForceResize{
-  padding: 10px 10px 10px 10px !important;
-
+.col-sm-6{
+  border-radius: 0 !important;
 }
 .card-body{
  /*  height: 200px; */
 }
-.card{
-  /* height: 300px; */
+.card1{
+  display: flex !important;
+  justify-content: center !important;
 }

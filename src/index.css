@@ -1,11 +1,3 @@
-.parent {
-  overflow-y: scroll;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* IE 10+ */
-}
-.parent::-webkit-scrollbar { /* WebKit */
-  width: 0px;
-}
 body{
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
@@ -194,6 +186,31 @@ main {
 
 .page-footer{
   margin-left: 270px;
+}
+
+.hidden{
+  display: none;
+}
+
+.sidebar-ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 11px;
+}
+
+.sidebar-li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+  margin-right:0px;
+  margin-left:0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  background: #242424;
+  color: #BCBCBC;
 }
 
 @media (max-width: 1199.98px) {
