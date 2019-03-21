@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "8ef6a08cdc1154920165680a4edde771",
-    "url": "/DX06/static/media/arrow_right.8ef6a08c.svg"
+    "revision": "11911410dca2de148f30954eb2fd5eab",
+    "url": "/DX06/static/media/arrow_left.11911410.svg"
   },
   {
     "revision": "b010bbdac7407f02fbcb",
@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/fa-solid-900.9c73abbd.woff"
   },
   {
-    "revision": "a995bae1d3cba3bdcf24071bf09b51c8",
-    "url": "/DX06/static/media/fa-brands-400.a995bae1.ttf"
-  },
-  {
     "revision": "3186ebd2918491445ea391a4f74e8dd7",
     "url": "/DX06/static/media/fa-brands-400.3186ebd2.eot"
+  },
+  {
+    "revision": "a995bae1d3cba3bdcf24071bf09b51c8",
+    "url": "/DX06/static/media/fa-brands-400.a995bae1.ttf"
   },
   {
     "revision": "304f31f4585cf09768f9d4d69574d2d6",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/DX06/static/media/fa-solid-900.c8ea4c79.svg"
   },
   {
-    "revision": "11911410dca2de148f30954eb2fd5eab",
-    "url": "/DX06/static/media/arrow_left.11911410.svg"
+    "revision": "8ef6a08cdc1154920165680a4edde771",
+    "url": "/DX06/static/media/arrow_right.8ef6a08c.svg"
   },
   {
     "revision": "b010bbdac7407f02fbcb",
